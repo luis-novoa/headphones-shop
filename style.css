@@ -1,3 +1,29 @@
+/* General rules */
+
 * {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+}
+
+/* Navbar */
+
+.navbar {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  align-items: center;
+  padding: 20px;
+}
+
+.logo {
+  font-weight: 900;
+  font-size: 18px;
+}
+
+.logo-icon {
+  font-size: 12px;
+  vertical-align: 2px;
+}
+
+.menu {
+  font-size: 24px;
 }
