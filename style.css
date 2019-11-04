@@ -3,17 +3,15 @@
 * {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
+  color: #313131;
 }
 
 h2 {
-  color: #313131;
   font-size: 20px;
   line-height: 1.5;
 }
 
-a,
-p {
-  color: #b9b9b9;
+a {
   text-decoration: none;
 }
 
@@ -60,4 +58,40 @@ a:hover {
   flex-direction: column;
   justify-content: space-between;
   padding: 5vh 10vw;
+}
+
+/* Medium Version */
+@media (min-width: 768px) {
+  /* Navbar */
+
+  .navbar {
+    padding: 3vh 4vw;
+  }
+
+  /* Homepage */
+  .homepage {
+    position: relative;
+  }
+
+  .hero {
+    height: 92vh;
+  }
+
+  .hero-text {
+    background: white;
+    position: absolute;
+    bottom: 0;
+    right: 0;
+    width: 40%;
+    height: 35%;
+    padding: 5vh 5vw;
+  }
+
+  .hero-text h2 {
+    font-size: 24px;
+  }
+
+  .hero-text a {
+    font-size: 18px;
+  }
 }
