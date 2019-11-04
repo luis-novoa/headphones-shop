@@ -11,21 +11,39 @@
 </head>
 
 <body>
-  <header>
-    <nav class="navbar">
-      <h1 class="logo">HEAR <i class="fas fa-headphones logo-icon"></i> BETTER</h1>
-      <i class="fas fa-bars menu"></i>
-    </nav>
-  </header>
-  <main>
-    <section class="homepage">
-      <div class="hero"></div>
-      <div class="hero-text">
-        <h2>HEADPHONES FOR MUSIC APPRECIATION</h2>
-        <a href="#">See our offers</a>
-      </div>
-    </section>
-  </main>
+  <div class="flex-row-desk">
+    <header>
+      <nav class="navbar flex-row-mob flex-column-desk">
+        <h1 class="logo">HEAR <i class="fas fa-headphones logo-icon"></i> BETTER</h1>
+        <div class="categories hidden flex-column-desk">
+          <a class="padding-bottom-6" href="#">Headphones</a>
+          <a class="padding-bottom-6" href="#">Earphones</a>
+          <a href="#">All Offers</a>
+        </div>
+        <div class="menu flex-row-desk">
+          <i class="fas fa-bars menu-icon"></i> <span class="hidden">Menu</span>
+        </div>
+        <div class="social hidden flex-column-desk">
+          <a class="padding-bottom-3" href="#">Instagram</a>
+          <a class="padding-bottom-3" href="#">Facebook</a>
+          <a class="padding-bottom-3" href="#">Twitter</a>
+          <a href="#">Youtube</a>
+        </div>
+      </nav>
+    </header>
+    <main>
+      <section class="homepage flex-row-desk">
+        <div class="hero"></div>
+        <div class="hero-complement flex-column-desk">
+          <div class="hero-small hidden"></div>
+          <div class="hero-text flex-column-mob">
+            <h2>HEADPHONES FOR MUSIC APPRECIATION</h2>
+            <a href="#">See our offers</a>
+          </div>
+        </div>
+      </section>
+    </main>
+  </div>
 
   <script src="https://kit.fontawesome.com/4769bb681b.js"></script>
 </body>

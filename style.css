@@ -4,6 +4,7 @@
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   color: #313131;
+  overflow: hidden;
 }
 
 h2 {
@@ -20,11 +21,23 @@ a:hover {
   color: black;
 }
 
+.hidden {
+  display: none;
+}
+
+.flex-column-mob {
+  display: flex;
+  flex-direction: column;
+}
+
+.flex-row-mob {
+  display: flex;
+  flex-direction: row;
+}
+
 /* Navbar */
 
 .navbar {
-  display: flex;
-  flex-direction: row;
   justify-content: space-between;
   align-items: center;
   padding: 3vh 8vw;
@@ -39,7 +52,7 @@ a:hover {
   vertical-align: 2px;
 }
 
-.menu {
+.menu-icon {
   font-size: 18px;
   color: #313131;
 }
@@ -54,14 +67,12 @@ a:hover {
 }
 
 .hero-text {
-  display: flex;
-  flex-direction: column;
   justify-content: space-between;
   height: 15vh;
   padding: 5vh 10vw;
 }
 
-/* Medium Version */
+/* Tablet Version */
 @media (min-width: 768px) {
   /* General */
 
@@ -71,6 +82,16 @@ a:hover {
 
   a {
     font-size: 18px;
+  }
+
+  .flex-column-tab {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flex-row-tab {
+    display: flex;
+    flex-direction: row;
   }
 
   /* Navbar */
@@ -88,7 +109,7 @@ a:hover {
     vertical-align: 2px;
   }
 
-  .menu {
+  .menu-icon {
     font-size: 24px;
     color: #313131;
   }
@@ -112,4 +133,68 @@ a:hover {
     padding: 5vh 5vw;
   }
 
+}
+
+/* Desktop Version */
+
+@media (min-width: 1024px) {
+  /* General */
+  .hidden {
+    display: block;
+  }
+
+  .flex-column-desk {
+    display: flex;
+    flex-direction: column;
+  }
+
+  .flex-row-desk {
+    display: flex;
+    flex-direction: row;
+  }
+
+  /* Navbar */
+  .navbar {
+    width: 180px;
+    height: 100vh;
+    justify-content: space-between;
+    align-items: start;
+    padding: 0;
+  }
+
+  .categories,
+  .menu {
+    flex: 1;
+  }
+
+  .categories {
+    justify-content: center;
+  }
+
+  .social {
+    justify-content: flex-end;
+  }
+
+  .padding-bottom-6 {
+    padding-bottom: 6vh;
+  }
+
+  .padding-bottom-3 {
+    padding-bottom: 3vh;
+  }
+
+  /* Homepage */
+  .hero {
+    height: 100vh;
+    flex: 1;
+  }
+
+  .hero-complement {
+    position: static;
+    flex: 1;
+  }
+
+  .hero-small {
+
+  }
 }
