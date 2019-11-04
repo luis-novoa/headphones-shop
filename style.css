@@ -2,6 +2,23 @@
 
 * {
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
+  font-weight: 700;
+}
+
+h2 {
+  color: #313131;
+  font-size: 20px;
+  line-height: 1.5;
+}
+
+a,
+p {
+  color: #b9b9b9;
+  text-decoration: none;
+}
+
+a:hover {
+  color: black;
 }
 
 /* Navbar */
@@ -11,11 +28,10 @@
   flex-direction: row;
   justify-content: space-between;
   align-items: center;
-  padding: 20px;
+  padding: 3vh 8vw;
 }
 
 .logo {
-  font-weight: 900;
   font-size: 18px;
 }
 
@@ -26,4 +42,22 @@
 
 .menu {
   font-size: 24px;
+  color: #313131;
+}
+
+/* Homepage */
+
+.hero {
+  background: url(./images/main-big.jpg) -50px 0 no-repeat;
+  background-size: cover;
+  width: 100vw;
+  height: 62vh;
+}
+
+.hero-text {
+  height: 18vh;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  padding: 5vh 10vw;
 }
