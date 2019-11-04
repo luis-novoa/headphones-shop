@@ -185,6 +185,7 @@ a:hover {
 
   /* Homepage */
   .hero {
+    margin-right: 3px;
     height: 100vh;
     flex: 1;
   }
@@ -195,6 +196,16 @@ a:hover {
   }
 
   .hero-small {
+    background: url(./images/main-small.jpg) 0 0 no-repeat;
+    background-size: contain;
+    flex: 1;
+  }
 
+  .hero-text {
+    box-sizing: border-box;
+    position: static;
+    flex: 1;
+    width: 100%;
+    height: 100%;
   }
 }
