@@ -7,11 +7,12 @@
 }
 
 h2 {
-  font-size: 20px;
+  font-size: 18px;
   line-height: 1.5;
 }
 
 a {
+  font-size: 12px;
   text-decoration: none;
 }
 
@@ -30,16 +31,16 @@ a:hover {
 }
 
 .logo {
-  font-size: 18px;
+  font-size: 14px;
 }
 
 .logo-icon {
-  font-size: 12px;
+  font-size: 8px;
   vertical-align: 2px;
 }
 
 .menu {
-  font-size: 24px;
+  font-size: 18px;
   color: #313131;
 }
 
@@ -53,19 +54,43 @@ a:hover {
 }
 
 .hero-text {
-  height: 18vh;
   display: flex;
   flex-direction: column;
   justify-content: space-between;
+  height: 15vh;
   padding: 5vh 10vw;
 }
 
 /* Medium Version */
 @media (min-width: 768px) {
+  /* General */
+
+  h2 {
+    font-size: 24px;
+  }
+
+  a {
+    font-size: 18px;
+  }
+
   /* Navbar */
 
   .navbar {
-    padding: 3vh 4vw;
+    padding: 3vh 6vw;
+  }
+
+  .logo {
+    font-size: 18px;
+  }
+
+  .logo-icon {
+    font-size: 12px;
+    vertical-align: 2px;
+  }
+
+  .menu {
+    font-size: 24px;
+    color: #313131;
   }
 
   /* Homepage */
@@ -74,7 +99,7 @@ a:hover {
   }
 
   .hero {
-    height: 92vh;
+    height: 89vh;
   }
 
   .hero-text {
@@ -87,11 +112,4 @@ a:hover {
     padding: 5vh 5vw;
   }
 
-  .hero-text h2 {
-    font-size: 24px;
-  }
-
-  .hero-text a {
-    font-size: 18px;
-  }
 }
