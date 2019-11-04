@@ -48,7 +48,7 @@ a:hover {
 /* Homepage */
 
 .hero {
-  background: url(./images/main-big.jpg) -50px 0 no-repeat;
+  background: url(./images/main-big.jpg) 70% 0 no-repeat;
   background-size: cover;
   width: 100vw;
   height: 62vh;
