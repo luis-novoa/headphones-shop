@@ -47,6 +47,15 @@ a:hover {
   position: sticky;
 }
 
+.wrapper {
+  height: 100vh;
+}
+
+/* Main Viewport */
+.main-viewport {
+  height: 100%;
+}
+
 /* Navbar */
 
 .navbar {
@@ -70,6 +79,9 @@ a:hover {
 }
 
 /* Homepage */
+.homepage {
+  height: 100%;
+}
 
 .hero {
   background: url(./images/main-big.jpg) 70% 0 no-repeat;
@@ -78,9 +90,14 @@ a:hover {
   height: 62vh;
 }
 
+.hero-complement {
+  height: 100%;
+}
+
 .hero-text {
+  box-sizing: border-box;
   justify-content: space-between;
-  height: 20vh;
+  height: 100%;
   padding: 4vh 10vw;
 }
 
@@ -142,7 +159,7 @@ a:hover {
   }
 
   .hero {
-    height: 89vh;
+    height: 100%;
   }
 
   .hero-text {
