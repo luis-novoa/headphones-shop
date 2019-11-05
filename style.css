@@ -107,6 +107,25 @@ a:hover {
   background: #f5f5f5;
 }
 
+.search {
+  background: url(./images/menu2.jpg) 0 0 no-repeat;
+  background-size: cover;
+}
+
+.opaque {
+  background: rgba(255, 255, 255, 0.5);
+  height: 100%;
+}
+
+.menu-main {
+  flex: 2;
+}
+
+.newsletter {
+  background: url(./images/menu1.jpg) 0 0 no-repeat, white;
+  background-size: contain;
+}
+
 /* Tablet Version */
 @media (min-width: 768px) {
   /* General */
