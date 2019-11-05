@@ -189,10 +189,6 @@ a:hover {
     flex: 1;
   }
 
-  main {
-    flex: 1;
-  }
-
   /* Navbar */
 
   .navbar {
@@ -221,11 +217,6 @@ a:hover {
     margin-right: 5px;
   }
 
-  .categories,
-  .menu {
-    flex: 1;
-  }
-
   .categories {
     justify-content: center;
   }
@@ -243,10 +234,6 @@ a:hover {
   }
 
   /* Homepage */
-  .main-viewport,
-  .homepage {
-    flex: 1;
-  }
 
   .hero {
     margin-right: 3px;
