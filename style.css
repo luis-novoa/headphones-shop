@@ -142,6 +142,17 @@ a:hover {
 
 @media (min-width: 1024px) {
   /* General */
+
+  h2 {
+    font-size: 18px;
+    line-height: 1.5;
+  }
+
+  a {
+    font-size: 12px;
+    text-decoration: none;
+  }
+
   .hidden {
     display: block;
   }
@@ -168,7 +179,24 @@ a:hover {
     height: 100vh;
     justify-content: space-between;
     align-items: start;
-    padding: 5vh 4vw;
+    padding: 5vh 4vw 5vh 2vw;
+  }
+
+  .logo {
+    font-size: 14px;
+  }
+
+  .logo-icon {
+    font-size: 8px;
+  }
+
+  .menu {
+    line-height: 20px;
+  }
+
+  .menu-icon {
+    font-size: 18px;
+    margin-right: 5px;
   }
 
   .categories,
@@ -227,10 +255,18 @@ a:hover {
 
   .right-bar {
     align-items: flex-end;
+    padding: 3.5vh 2vw;
+  }
+
+  .right-bar i {
+    font-size: 18px;
+    margin-right: 2px;
+    margin-top: 5vh;
   }
 
   .cart {
-    line-height: 23px;
+    line-height: 27px;
+    font-size: 12px;
   }
 
   .cart-counter {
@@ -240,5 +276,6 @@ a:hover {
     width: 25px;
     height: 25px;
     text-align: center;
+    margin-left: 5px;
   }
 }
