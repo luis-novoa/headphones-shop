@@ -20,7 +20,7 @@
           <a href="#">Earphones</a>
         </div>
         <div class="menu flex-row-desk flex1-desk">
-          <i class="fas fa-bars menu-icon"></i> <span class="hidden">Menu</span>
+          <a href="#menu-page" class="fas fa-bars" id="menu-icon"> <span class="hidden">Menu</span></a>
         </div>
         <div class="social hidden flex-column-desk">
           <a class="padding-bottom-3" href="#">Instagram</a>
@@ -32,7 +32,7 @@
     </header>
     <main class="flex-row-desk flex1-mob">
       <div class="main-viewport flex-column-mob flex1-mob">
-        <section class="homepage flex-column-mob flex-row-desk flex1-desk for-construction">
+        <section class="homepage flex-column-mob flex-row-desk flex1-desk">
           <div class="hero"></div>
           <div class="hero-complement flex-column-desk flex1-mob">
             <div class="hero-small hidden"></div>
@@ -42,16 +42,16 @@
             </div>
           </div>
         </section>
-        <section class="menu-page flex1-mob flex-column-mob">
-          <div class="search flex1-mob">
-            <div class="opaque flex-column-mob">
+        <section class="menu-page flex1-mob flex-column-mob" id="menu-page">
+          <div class="search flex1-mob flex-row-desk">
+            <div class="opaque flex-column-mob flex1-desk">
               <h4>Search</h4>
               <input type="search" name="searchbar" id="searchbar">
             </div>
-            <div class="hidden"></div>
+            <div class="hidden flex1-desk search-desk-img"></div>
           </div>
           <div class="menu-main flex-column-mob">
-            <i class="fas fa-times-circle close-menu"></i>
+            <a href="#" class="fas fa-times-circle close-menu"></a>
             <div class="menu-nav-wrapper flex-row-mob">
               <nav class="flex-column-mob">
                 <h3>SHOP</h3>
@@ -74,12 +74,12 @@
               </nav>
             </div>
           </div>
-          <div class="newsletter flex1-mob">
-            <div class="opaque flex-column-mob">
+          <div class="newsletter flex1-mob flex-row-desk">
+            <div class="hidden flex1-desk newsletter-desk-img"></div>
+            <div class="opaque flex-column-mob  flex1-desk">
               <h4>Subscribe To Our Newsletter</h4>
               <input type="email" name="newsletter" id="newsletter">
             </div>
-            <div class="hidden"></div>
           </div>
         </section>
       </div>
