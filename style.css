@@ -109,7 +109,7 @@ a:hover {
 
 .menu-page h4 {
   font-weight: 300;
-  font-size: 14px;
+  font-size: 12px;
 }
 
 .menu-page input {
@@ -167,14 +167,15 @@ a:hover {
 }
 
 .newsletter .opaque {
-  padding: 0 0 0 40vw;
+  padding: 0 0 0 46vw;
 }
 
 /* Tablet Version */
 @media (min-width: 768px) {
   /* General */
 
-  h2 {
+  h2,
+  h3 {
     font-size: 24px;
   }
 
@@ -233,6 +234,22 @@ a:hover {
     width: 40%;
     height: 35%;
     padding: 5vh 5vw;
+  }
+
+  /* Menu */
+  .menu-page h4 {
+    font-size: 18px;
+  }
+
+  .newsletter .opaque {
+    padding: 0 0 0 40vw;
+  }
+
+  .close-menu {
+    position: absolute;
+    top: 3vh;
+    right: 5.5vw;
+    font-size: 24px;
   }
 }
 
