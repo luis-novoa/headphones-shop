@@ -35,6 +35,10 @@ a:hover {
   flex-direction: row;
 }
 
+.sticky {
+  position: sticky;
+}
+
 /* Navbar */
 
 .navbar {
@@ -189,6 +193,10 @@ a:hover {
   }
 
   /* Homepage */
+  .homepage {
+    flex: 1;
+  }
+
   .hero {
     margin-right: 3px;
     height: 100vh;
@@ -213,5 +221,24 @@ a:hover {
     width: 100%;
     height: 100%;
     padding: 10vh 5vw;
+  }
+
+  /* Right bar */
+
+  .right-bar {
+    align-items: flex-end;
+  }
+
+  .cart {
+    line-height: 23px;
+  }
+
+  .cart-counter {
+    background: #313131;
+    color: white;
+    border-radius: 50%;
+    width: 25px;
+    height: 25px;
+    text-align: center;
   }
 }

@@ -13,7 +13,7 @@
 <body>
   <div class="flex-row-desk">
     <header>
-      <nav class="navbar flex-row-mob flex-column-desk">
+      <nav class="navbar flex-row-mob flex-column-desk sticky">
         <h1 class="logo">HEAR <i class="fas fa-headphones logo-icon"></i> BETTER</h1>
         <div class="categories hidden flex-column-desk">
           <a class="padding-bottom-6" href="#">Headphones</a>
@@ -31,7 +31,7 @@
         </div>
       </nav>
     </header>
-    <main>
+    <main class="flex-row-desk">
       <section class="homepage flex-row-desk">
         <div class="hero"></div>
         <div class="hero-complement flex-column-desk">
@@ -41,6 +41,13 @@
             <a href="#">See our offers</a>
           </div>
         </div>
+      </section>
+      <section class="right-bar hidden flex-column-desk sticky">
+        <div class="cart flex-row-desk">
+          <span>Cart</span><span class="cart-counter">0</span>
+        </div>
+        <i class="fas fa-search"></i>
+        <i class="far fa-user"></i>
       </section>
     </main>
   </div>
