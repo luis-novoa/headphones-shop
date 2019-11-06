@@ -47,22 +47,12 @@ a:hover {
   position: fixed;
 }
 
-.wrapper {
-  height: 100vh;
-}
-
 .selected {
   color: #b9b9b9;
 }
 
 .selected:hover {
   color: #b9b9b9;
-}
-
-/* Main Viewport */
-.main-viewport {
-  position: relative;
-  height: 100%;
 }
 
 /* Header */
@@ -77,6 +67,7 @@ header {
 /* Navbar */
 
 .navbar {
+  width: 100%;
   height: 10vh;
   justify-content: space-between;
   align-items: center;
@@ -99,15 +90,18 @@ header {
 }
 
 /* Homepage */
+
 .homepage {
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
 }
 
 .hero {
   background: url(./images/main-big.jpg) 70% 0 no-repeat;
   background-size: cover;
-  width: 100vw;
+  width: 100%;
   height: 62vh;
+  margin-top: 10vh;
 }
 
 .hero-complement {
@@ -317,7 +311,7 @@ header {
     display: flex;
     flex-direction: row;
   }
-  
+
   .flex1-desk {
     flex: 1;
   }
@@ -376,10 +370,13 @@ header {
   }
 
   .homepage {
+    width: 75vw;
     height: 100vh;
+    margin-left: 15vw;
   }
 
   .hero {
+    margin-top: 0;
     margin-right: 3px;
     height: 100vh;
     flex: 1;
