@@ -63,6 +63,15 @@ a:hover {
   justify-content: space-between;
 }
 
+.text14 {
+  font-size: 14px;
+}
+
+.text12 {
+  font-size: 12px;
+  line-height: 18px;
+}
+
 /* Header */
 header {
   width: 100vw;
