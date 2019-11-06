@@ -587,4 +587,42 @@ header {
   .newsletter .opaque {
     padding: 0 5vw;
   }
+
+  /* Category page */
+  .category-page {
+    width: 75vw;
+    height: 100vh;
+    margin-left: 15vw;
+  }
+
+  .category-page h2 {
+    font-size: 24px;
+  }
+
+  .category-selector {
+    margin-bottom: 2vh;
+  }
+
+  #first-link {
+    margin: 0;
+  }
+
+  .product {
+    height: 50vh;
+    width: 24vw;
+    padding: 5vh 3vw;
+    font-size: 12px;
+  }
+
+  .product h3 {
+    font-size: 12px;
+  }
+
+  #product1 {
+    margin-left: 0;
+  }
+
+  #product3 {
+    margin-right: 0;
+  }
 }
