@@ -57,7 +57,6 @@ a:hover {
 
 /* Header */
 header {
-  z-index: 1;
   width: 100vw;
   height: 100vh;
   position: relative;
@@ -73,6 +72,7 @@ header {
   align-items: center;
   padding: 3vh 8vw;
   background: white;
+  z-index: 2;
 }
 
 .logo {
@@ -120,8 +120,8 @@ header {
   width: 100vw;
   height: 90vh;
   background: white;
-  z-index: -1;
   bottom: 100%;
+  z-index: 1;
 }
 
 .menu-page:target {
@@ -248,10 +248,6 @@ header {
   }
 
   /* Homepage */
-  .homepage {
-    position: relative;
-  }
-
   .hero {
     height: 100%;
   }

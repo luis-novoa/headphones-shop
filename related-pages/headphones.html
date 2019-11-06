@@ -14,9 +14,11 @@
   <div class="main-viewport flex-row-desk">
     <header class="fixed flex-row-desk">
       <nav class="navbar flex-row-mob flex-column-desk">
-        <h1 class="logo">HEAR <i class="fas fa-headphones logo-icon"></i> BETTER</h1>
+        <a href="/index.html">
+          <h1 class="logo">HEAR <i class="fas fa-headphones logo-icon"></i> BETTER</h1>
+        </a>
         <div class="categories hidden flex-column-desk flex1-desk">
-          <a class="padding-bottom-6" href="./related-pages/headphones.html">Headphones</a>
+          <a class="padding-bottom-6 selected">Headphones</a>
           <a href="./related-pages/earphones.html">Earphones</a>
         </div>
         <div class="menu flex-row-desk flex1-desk">
@@ -44,7 +46,7 @@
           <div class="menu-nav-wrapper flex-row-mob">
             <nav class="flex-column-mob">
               <h3>SHOP</h3>
-              <a href="./related-pages/headphones.html">Headphones</a>
+              <a class="selected">Headphones</a>
               <a href="./related-pages/earphones.html">Earphones</a>
             </nav>
             <nav class=" flex-column-mob">
@@ -75,10 +77,10 @@
       <!-- Right Bar -->
       <section class="right-bar hidden flex-column-desk">
         <div class="cart flex-row-desk">
-          <span>Cart</span><span class="cart-counter">0</span>
+          <a href="#"><span>Cart</span><span class="cart-counter">0</span></a>
         </div>
-        <i class="fas fa-search"></i>
-        <i class="far fa-user"></i>
+        <a href="#"><i class="fas fa-search"></i></a>
+        <a href="#"><i class="far fa-user"></i></a>
       </section>
     </header>
 
@@ -89,7 +91,7 @@
           <a>
             <h2 class="selected">Headphones</h2>
           </a>
-          <a href="#earphones">
+          <a href="./related-pages/earphones.html">
             <h2>Earphones</h2>
           </a>
         </nav>
