@@ -12,7 +12,7 @@
 
 <body>
   <div class="main-viewport flex-row-desk">
-    <header class="fixed flex-row-desk">
+    <header class="fixed flex-row-desk" id="header">
       <nav class="navbar flex-row-mob flex-column-desk">
         <h1 class="logo">HEAR <i class="fas fa-headphones logo-icon"></i> BETTER</h1>
         <div class="categories hidden flex-column-desk flex1-desk">
@@ -40,7 +40,7 @@
           <div class="hidden flex1-desk search-desk-img"></div>
         </div>
         <div class="menu-main flex-column-mob">
-          <a href="#" class="fas fa-times-circle close-menu"></a>
+          <a href="#header" class="fas fa-times-circle close-menu"></a>
           <div class="menu-nav-wrapper flex-row-mob">
             <nav class="flex-column-mob">
               <h3>SHOP</h3>
@@ -72,14 +72,6 @@
         </div>
       </section>
 
-      <!-- Right Bar -->
-      <section class="right-bar hidden flex-column-desk">
-        <div class="cart flex-row-desk">
-          <a href="#"><span>Cart</span><span class="cart-counter">0</span></a>
-        </div>
-        <a href="#"><i class="fas fa-search"></i></a>
-        <a href="#"><i class="far fa-user"></i></a>
-      </section>
     </header>
 
     <main>
@@ -94,6 +86,15 @@
           </div>
       </section>
     </main>
+
+    <!-- Right Bar -->
+    <aside class="right-bar hidden flex-column-desk fixed">
+      <div class="flex-row-desk">
+        <a href="#" class="cart"><span>Cart</span><span class="cart-counter">0</span></a>
+      </div>
+      <a href="#"><i class="fas fa-search"></i></a>
+      <a href="#"><i class="far fa-user"></i></a>
+    </aside>
   </div>
 
   <script src="https://kit.fontawesome.com/4769bb681b.js"></script>

@@ -12,7 +12,7 @@
 
 <body>
   <div class="main-viewport flex-row-desk">
-    <header class="fixed flex-row-desk">
+    <header class="fixed flex-row-desk" id="header">
       <nav class="navbar flex-row-mob flex-column-desk">
         <a href="/index.html">
           <h1 class="logo">HEAR <i class="fas fa-headphones logo-icon"></i> BETTER</h1>
@@ -42,7 +42,7 @@
           <div class="hidden flex1-desk search-desk-img"></div>
         </div>
         <div class="menu-main flex-column-mob">
-          <a href="#" class="fas fa-times-circle close-menu"></a>
+          <a href="#header" class="fas fa-times-circle close-menu"></a>
           <div class="menu-nav-wrapper flex-row-mob">
             <nav class="flex-column-mob">
               <h3>SHOP</h3>
@@ -76,8 +76,8 @@
 
       <!-- Right Bar -->
       <section class="right-bar hidden flex-column-desk">
-        <div class="cart flex-row-desk">
-          <a href="#"><span>Cart</span><span class="cart-counter">0</span></a>
+        <div class="flex-row-desk">
+          <a href="#" class="cart"><span>Cart</span><span class="cart-counter">0</span></a>
         </div>
         <a href="#"><i class="fas fa-search"></i></a>
         <a href="#"><i class="far fa-user"></i></a>
