@@ -8,7 +8,7 @@
   font-family: "Helvetica Neue", Helvetica, Arial, sans-serif;
   font-weight: 700;
   color: #313131;
-  overflow: hidden;
+  box-sizing: border-box;
 }
 
 h2 {
@@ -43,12 +43,8 @@ a:hover {
   flex: 1;
 }
 
-.sticky {
-  position: sticky;
-}
-
-.wrapper {
-  height: 100vh;
+.fixed {
+  position: fixed;
 }
 
 .selected {
@@ -59,18 +55,24 @@ a:hover {
   color: #b9b9b9;
 }
 
-/* Main Viewport */
-.main-viewport {
+/* Header */
+header {
+  z-index: 1;
+  width: 100vw;
+  height: 100vh;
   position: relative;
-  height: 100%;
+  justify-content: space-between;
 }
 
 /* Navbar */
 
 .navbar {
+  width: 100%;
+  height: 10vh;
   justify-content: space-between;
   align-items: center;
   padding: 3vh 8vw;
+  background: white;
 }
 
 .logo {
@@ -88,15 +90,18 @@ a:hover {
 }
 
 /* Homepage */
+
 .homepage {
-  height: 100%;
+  width: 100vw;
+  height: 100vh;
 }
 
 .hero {
   background: url(./images/main-big.jpg) 70% 0 no-repeat;
   background-size: cover;
-  width: 100vw;
+  width: 100%;
   height: 62vh;
+  margin-top: 10vh;
 }
 
 .hero-complement {
@@ -104,7 +109,6 @@ a:hover {
 }
 
 .hero-text {
-  box-sizing: border-box;
   justify-content: space-between;
   height: 100%;
   padding: 4vh 10vw;
@@ -113,9 +117,10 @@ a:hover {
 /* Menu Page */
 .menu-page {
   position: absolute;
-  width: 100%;
-  height: 100%;
+  width: 100vw;
+  height: 90vh;
   background: white;
+  z-index: -1;
   bottom: 100%;
 }
 
@@ -153,7 +158,6 @@ a:hover {
 }
 
 .opaque {
-  box-sizing: border-box;
   background: rgba(255, 255, 255, 0.5);
   height: 100%;
   justify-content: center;
@@ -315,8 +319,7 @@ a:hover {
   /* Navbar */
 
   .navbar {
-    box-sizing: border-box;
-    width: fit-content;
+    width: 15vw;
     height: 100vh;
     justify-content: space-between;
     align-items: start;
@@ -367,10 +370,13 @@ a:hover {
   }
 
   .homepage {
+    width: 75vw;
     height: 100vh;
+    margin-left: 15vw;
   }
 
   .hero {
+    margin-top: 0;
     margin-right: 3px;
     height: 100vh;
     flex: 1;
@@ -388,7 +394,6 @@ a:hover {
   }
 
   .hero-text {
-    box-sizing: border-box;
     position: static;
     flex: 1;
     width: 100%;
@@ -399,6 +404,8 @@ a:hover {
   /* Right bar */
 
   .right-bar {
+    width: 10vw;
+    height: 100vh;
     align-items: flex-end;
     padding: 3.5vh 2vw;
   }
@@ -426,6 +433,8 @@ a:hover {
 
   /* Menu */
   .menu-page {
+    width: 75vw;
+    height: 100vh;
     right: 100%;
     bottom: 0;
   }
@@ -438,7 +447,7 @@ a:hover {
 
   @keyframes move-left {
     100% {
-      right: 0;
+      right: 10vw;
     }
   }
 
@@ -452,7 +461,6 @@ a:hover {
   }
 
   .menu-main {
-    box-sizing: border-box;
     padding: 0 10vw;
   }
 
@@ -464,7 +472,6 @@ a:hover {
   }
 
   .search {
-    box-sizing: border-box;
     background: none;
   }
 
@@ -479,7 +486,6 @@ a:hover {
   }
 
   .newsletter {
-    box-sizing: border-box;
     background: #f5f5f5;
   }
 
