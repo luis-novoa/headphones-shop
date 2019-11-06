@@ -112,7 +112,7 @@ header {
 }
 
 .hero {
-  background: url(./images/main-big.jpg) 70% 0 no-repeat;
+  background: url(./images/main-big.jpg) 50% 0 no-repeat;
   background-size: cover;
   width: 100%;
   height: 62vh;
@@ -204,6 +204,35 @@ header {
   position: absolute;
   top: 2vh;
   right: 4vw;
+}
+
+.right-bar-small {
+  position: absolute;
+  top: 1vh;
+  left: 4vw;
+  width: 60vw;
+  align-items: center;
+}
+
+.right-bar-small i {
+  font-size: 12px;
+  margin-left: 5vw;
+}
+
+.cart {
+  line-height: 22px;
+  font-size: 12px;
+}
+
+.cart-counter {
+  display: inline-block;
+  background: #313131;
+  color: white;
+  border-radius: 50%;
+  width: 20px;
+  height: 20px;
+  text-align: center;
+  margin-left: 5px;
 }
 
 .newsletter {
@@ -362,6 +391,26 @@ header {
     font-size: 24px;
   }
 
+  .right-bar-small {
+    top: 3vh;
+    left: 5.5vw;
+  }
+
+  .right-bar-small i {
+    font-size: 18px;
+    margin-left: 5vw;
+  }
+
+  .cart {
+    line-height: 26px;
+    font-size: 18px;
+  }
+
+  .cart-counter {
+    width: 25px;
+    height: 25px;
+  }
+
   /* Categories */
   .product {
     height: 43vh;
@@ -426,6 +475,10 @@ header {
 
   .hidden {
     display: block;
+  }
+
+  .reverse-hidden {
+    display: none;
   }
 
   .flex-column-desk {
@@ -547,19 +600,12 @@ header {
   }
 
   .cart {
-    line-height: 27px;
-    font-size: 12px;
+    line-height: 26px;
   }
 
   .cart-counter {
-    display: inline-block;
-    background: #313131;
-    color: white;
-    border-radius: 50%;
     width: 25px;
     height: 25px;
-    text-align: center;
-    margin-left: 5px;
   }
 
   /* Menu */
