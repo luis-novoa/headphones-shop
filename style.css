@@ -51,6 +51,14 @@ a:hover {
   height: 100vh;
 }
 
+.selected {
+  color: #b9b9b9;
+}
+
+.selected:hover {
+  color: #b9b9b9;
+}
+
 /* Main Viewport */
 .main-viewport {
   position: relative;

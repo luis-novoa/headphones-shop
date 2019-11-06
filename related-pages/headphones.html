@@ -14,9 +14,11 @@
   <div class="wrapper flex-column-mob flex-row-desk">
     <header>
       <nav class="navbar flex-row-mob flex-column-desk sticky">
-        <h1 class="logo">HEAR <i class="fas fa-headphones logo-icon"></i> BETTER</h1>
+        <a href="/index.html">
+          <h1 class="logo">HEAR <i class="fas fa-headphones logo-icon"></i> BETTER</h1>
+        </a>
         <div class="categories hidden flex-column-desk flex1-desk">
-          <a class="padding-bottom-6" href="#">Headphones</a>
+          <a class="padding-bottom-6 selected">Headphones</a>
           <a href="#">Earphones</a>
         </div>
         <div class="menu flex-row-desk flex1-desk">
@@ -34,11 +36,14 @@
       <div class="main-viewport flex-column-mob flex1-mob">
 
         <!-- Categories -->
-        <section>
-          <h2>CATEGORIES</h2>
-          <nav>
-            <h3><a href="#headphones">Headphones</a></h3>
-            <h3><a href="#earphones">Earphones</a></h3>
+        <section class="categories">
+          <nav class="flex-row-mob">
+            <a>
+              <h2 class="selected">Headphones</h2>
+            </a>
+            <a href="#earphones">
+              <h2>Earphones</h2>
+            </a>
           </nav>
         </section>
 
@@ -56,7 +61,7 @@
             <div class="menu-nav-wrapper flex-row-mob">
               <nav class="flex-column-mob">
                 <h3>SHOP</h3>
-                <a href="#">Headphones</a>
+                <a class="selected">Headphones</a>
                 <a href="#">Earphones</a>
               </nav>
               <nav class=" flex-column-mob">
