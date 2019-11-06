@@ -43,8 +43,8 @@ a:hover {
   flex: 1;
 }
 
-.sticky {
-  position: sticky;
+.fixed {
+  position: fixed;
 }
 
 .wrapper {
@@ -65,12 +65,21 @@ a:hover {
   height: 100%;
 }
 
+/* Header */
+header {
+  z-index: 1;
+  width: 100vw;
+  position: relative;
+  justify-content: space-between;
+}
+
 /* Navbar */
 
 .navbar {
   justify-content: space-between;
   align-items: center;
   padding: 3vh 8vw;
+  background: white;
 }
 
 .logo {
@@ -113,22 +122,23 @@ a:hover {
 .menu-page {
   position: absolute;
   width: 100%;
-  height: 100%;
+  height: 100vh;
   background: white;
-  bottom: 100%;
+  z-index: -1;
+  /* bottom: 100%; */
 }
 
-.menu-page:target {
+/* .menu-page:target {
   animation-name: move-down;
   animation-duration: 1s;
   animation-fill-mode: forwards;
-}
-
+} */
+/* 
 @keyframes move-down {
   100% {
     bottom: 0;
   }
-}
+} */
 
 .menu-page h4 {
   font-weight: 300;
@@ -305,7 +315,7 @@ a:hover {
     display: flex;
     flex-direction: row;
   }
-
+  
   .flex1-desk {
     flex: 1;
   }
@@ -313,7 +323,7 @@ a:hover {
   /* Navbar */
 
   .navbar {
-    width: fit-content;
+    width: 15vw;
     height: 100vh;
     justify-content: space-between;
     align-items: start;
@@ -395,6 +405,8 @@ a:hover {
   /* Right bar */
 
   .right-bar {
+    width: 10vw;
+    height: 100vh;
     align-items: flex-end;
     padding: 3.5vh 2vw;
   }
@@ -422,6 +434,8 @@ a:hover {
 
   /* Menu */
   .menu-page {
+    width: 75vw;
+    height: 100vh;
     right: 100%;
     bottom: 0;
   }
@@ -434,7 +448,7 @@ a:hover {
 
   @keyframes move-left {
     100% {
-      right: 0;
+      right: 10vw;
     }
   }
 
