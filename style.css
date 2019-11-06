@@ -272,6 +272,10 @@ header {
     flex: 1;
   }
 
+  .flex-wrap-tab {
+    flex-wrap: wrap;
+  }
+
   .main-viewport {
     position: relative;
   }
@@ -329,6 +333,38 @@ header {
     top: 3vh;
     right: 5.5vw;
     font-size: 24px;
+  }
+
+  /* Categories */
+  .product {
+    height: 43vh;
+    width: 49vw;
+    padding: 5vh 5vw;
+    font-size: 18px;
+  }
+
+  .product h3 {
+    font-size: 18px;
+  }
+
+  #product1 {
+    background: url(./images/product1-1.png) center no-repeat;
+    background-size: 50%;
+    background-color: #f5f5f5;
+    margin: 0 4px;
+  }
+
+  #product2 {
+    background: url(./images/product2-1.png) center no-repeat;
+    background-size: 75%;
+    background-color: #f5f5f5;
+  }
+
+  #product3 {
+    background: url(./images/product3-1.png) center no-repeat;
+    background-size: 60%;
+    background-color: #f5f5f5;
+    margin-left: 4px;
   }
 }
 
