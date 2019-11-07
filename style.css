@@ -88,6 +88,8 @@ header {
   align-items: center;
   padding: 3vh 8vw;
   background: white;
+  position: relative;
+  flex: 1;
 }
 
 .logo {
@@ -136,7 +138,6 @@ header {
   height: 95vh;
   background: white;
   bottom: 100%;
-  z-index: 2;
 }
 
 .menu-page:target {
@@ -302,7 +303,7 @@ header {
 }
 
 /* Product Page */
-.product-page > * {
+.product-page > * > * {
   background-color: #f5f5f5;
 }
 
@@ -334,31 +335,31 @@ header {
 
 #product2-img {
   background: url(./images/product2-1.png) center no-repeat;
-  background-size: 50%;
+  background-size: 40%;
   background-color: #f5f5f5;
 }
 
 #product3-img {
   background: url(./images/product3-1.png) center no-repeat;
-  background-size: 50%;
+  background-size: 40%;
   background-color: #f5f5f5;
 }
 
 #product4-img {
   background: url(./images/product4-1.png) center no-repeat;
-  background-size: 50%;
+  background-size: 40%;
   background-color: #f5f5f5;
 }
 
 #product5-img {
   background: url(./images/product5-1.png) center no-repeat;
-  background-size: 50%;
+  background-size: 40%;
   background-color: #f5f5f5;
 }
 
 #product6-img {
   background: url(./images/product6-1.png) center no-repeat;
-  background-size: 50%;
+  background-size: 40%;
   background-color: #f5f5f5;
 }
 
@@ -399,7 +400,7 @@ header {
 }
 
 .add-to-cart {
-  height: 8vh;
+  height: 9vh;
   background: white;
   margin-bottom: 3px;
 }
@@ -407,25 +408,26 @@ header {
 .add-to-cart span {
   display: block;
   background: #f5f5f5;
-  height: 8vh;
-  line-height: 8vh;
+  height: 9vh;
+  line-height: 9vh;
   text-align: center;
-  font-size: 18px;
 }
 
 .plus {
   width: 20vw;
   margin-right: 3px;
+  font-size: 40px;
 }
 
 .add {
   width: 80vw;
+  font-size: 18px;
 }
 
 .go-back {
-  height: 5vh;
+  height: 6vh;
   text-align: center;
-  line-height: 5vh;
+  line-height: 6vh;
 }
 
 .go-back a {
@@ -586,6 +588,206 @@ header {
     background-size: 70%;
     background-color: #f5f5f5;
     margin-left: 4px;
+  }
+
+  /* Product Pages */
+  .product-main {
+    width: 70vw;
+  }
+
+  .product-expositor span {
+    font-size: 18px;
+  }
+
+  .mini-imgs {
+    margin-top: 5vh;
+  }
+
+  .mini-imgs div {
+    width: 29vw;
+    height: 23.5vh;
+    margin-right: 3px;
+    margin-bottom: 3px;
+  }
+
+  .details h3 {
+    font-size: 16px;
+  }
+
+  .add {
+    font-size: 24px;
+  }
+
+  .go-back a {
+    font-size: 18px;
+  }
+
+  #product1-img {
+    background-size: 35%;
+  }
+
+  #product2-img {
+    background-size: 35%;
+  }
+
+  #product3-img {
+    background-size: 35%;
+  }
+
+  #product4-img {
+    background-size: 35%;
+  }
+
+  #product5-img {
+    background-size: 35%;
+  }
+
+  #product6-img {
+    background-size: 35%;
+  }
+
+  #product1-img2 {
+    background: url(./images/product1-2.png) center no-repeat;
+    background-size: 60%;
+    background-color: #f5f5f5;
+  }
+
+  #product1-img3 {
+    background: url(./images/product1-3.png) center no-repeat;
+    background-size: 60%;
+    background-color: #f5f5f5;
+  }
+
+  #product1-img4 {
+    background: url(./images/product1-4.png) center no-repeat;
+    background-size: 60%;
+    background-color: #f5f5f5;
+  }
+
+  #product1-img5 {
+    background: url(./images/product1-5.png) center no-repeat;
+    background-size: 60%;
+    background-color: #f5f5f5;
+  }
+
+  #product2-img2 {
+    background: url(./images/product2-2.png) center no-repeat;
+    background-size: 60%;
+    background-color: #f5f5f5;
+  }
+
+  #product2-img3 {
+    background: url(./images/product2-3.png) center no-repeat;
+    background-size: 60%;
+    background-color: #f5f5f5;
+  }
+
+  #product2-img4 {
+    background: url(./images/product2-4.png) center no-repeat;
+    background-size: 60%;
+    background-color: #f5f5f5;
+  }
+
+  #product2-img5 {
+    background: url(./images/product2-5.png) center no-repeat;
+    background-size: 60%;
+    background-color: #f5f5f5;
+  }
+
+  #product3-img2 {
+    background: url(./images/product3-2.png) center no-repeat;
+    background-size: 60%;
+    background-color: #f5f5f5;
+  }
+
+  #product3-img3 {
+    background: url(./images/product3-3.png) center no-repeat;
+    background-size: 60%;
+    background-color: #f5f5f5;
+  }
+
+  #product3-img4 {
+    background: url(./images/product3-4.png) center no-repeat;
+    background-size: 60%;
+    background-color: #f5f5f5;
+  }
+
+  #product3-img5 {
+    background: url(./images/product3-5.png) center no-repeat;
+    background-size: 60%;
+    background-color: #f5f5f5;
+  }
+
+  #product4-img2 {
+    background: url(./images/product4-2.png) center no-repeat;
+    background-size: 60%;
+    background-color: #f5f5f5;
+  }
+
+  #product4-img3 {
+    background: url(./images/product4-3.png) center no-repeat;
+    background-size: 60%;
+    background-color: #f5f5f5;
+  }
+
+  #product4-img4 {
+    background: url(./images/product4-4.png) center no-repeat;
+    background-size: 60%;
+    background-color: #f5f5f5;
+  }
+
+  #product4-img5 {
+    background: url(./images/product4-5.png) center no-repeat;
+    background-size: 60%;
+    background-color: #f5f5f5;
+  }
+
+  #product5-img2 {
+    background: url(./images/product5-2.png) center no-repeat;
+    background-size: 60%;
+    background-color: #f5f5f5;
+  }
+
+  #product5-img3 {
+    background: url(./images/product5-3.png) center no-repeat;
+    background-size: 60%;
+    background-color: #f5f5f5;
+  }
+
+  #product5-img4 {
+    background: url(./images/product5-4.png) center no-repeat;
+    background-size: 60%;
+    background-color: #f5f5f5;
+  }
+
+  #product5-img5 {
+    background: url(./images/product5-5.png) center no-repeat;
+    background-size: 60%;
+    background-color: #f5f5f5;
+  }
+
+  #product6-img2 {
+    background: url(./images/product6-2.png) center no-repeat;
+    background-size: 60%;
+    background-color: #f5f5f5;
+  }
+
+  #product6-img3 {
+    background: url(./images/product6-3.png) center no-repeat;
+    background-size: 60%;
+    background-color: #f5f5f5;
+  }
+
+  #product6-img4 {
+    background: url(./images/product6-4.png) center no-repeat;
+    background-size: 60%;
+    background-color: #f5f5f5;
+  }
+
+  #product6-img5 {
+    background: url(./images/product6-5.png) center no-repeat;
+    background-size: 60%;
+    background-color: #f5f5f5;
   }
 }
 
