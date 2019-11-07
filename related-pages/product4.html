@@ -14,12 +14,10 @@
   <div class="main-viewport flex-row-desk">
     <header class="fixed flex-row-desk" id="header">
       <nav class="navbar flex-row-mob flex-column-desk">
-        <a href="/index.html">
-          <h1 class="logo">HEAR <i class="fas fa-headphones logo-icon"></i> BETTER</h1>
-        </a>
+        <h1 class="logo">HEAR <i class="fas fa-headphones logo-icon"></i> BETTER</h1>
         <div class="categories hidden flex-column-desk flex1-desk">
-          <a href="./headphones.html" class="padding-bottom-6 text14">Headphones</a>
-          <a class="text14 selected">Earphones</a>
+          <a class="padding-bottom-6 text14" href="headphones.html">Headphones</a>
+          <a href="earphones.html" class="text14">Earphones</a>
         </div>
         <div class="menu flex-row-desk flex1-desk">
           <a href="#menu-page" class="fas fa-bars" id="menu-icon"> <span class="menu-text hidden text12">Menu</span></a>
@@ -53,8 +51,8 @@
           <div class="menu-nav-wrapper flex-row-mob">
             <nav class="flex-column-mob">
               <h3>SHOP</h3>
-              <a href="./headphones.html">Headphones</a>
-              <a class="selected">Earphones</a>
+              <a href="headphones.html">Headphones</a>
+              <a href="earphones.html">Earphones</a>
             </nav>
             <nav class=" flex-column-mob">
               <h3>COMPANY</h3>
@@ -84,41 +82,39 @@
     </header>
 
     <main>
-      <!-- Products -->
-      <section class="category-page flex-column-mob">
-        <nav class="category-selector flex-row-mob">
-          <a href="./headphones.html" id="first-link">
-            <h2>Headphones</h2>
-          </a>
-          <a>
-            <h2 class="selected">Earphones</h2>
-          </a>
-        </nav>
-        <div class="flex-row-tab flex-wrap-tab">
-          <article>
-            <a href="./product4.html" class="product" id="product4"><span class="font300">1001</span>
-              <div class="flex-row-mob space-between">
-                <h3>MODEL Nº1</h3>
-                <span>550 USD</span>
+      <!-- Product Page -->
+      <section class="product-page flex-row-tab flex-column-desk">
+        <div class="mini-imgs flex-column-tab flex-row-desk">
+          <div id="product1-img2"></div>
+          <div id="product1-img3"></div>
+          <div id="product1-img4"></div>
+          <div id="product1-img5"></div>
+        </div>
+        <div class="product-main flex-column-mob flex-row-desk">
+          <div class="product-expositor" id="product1-img"><span class="product-number">0001</span><span>01/05</span>
+          </div>
+          <div class="product-wrapper flex-column-desk">
+            <div class="product-info flex-row-mob space-between">
+              <div class="flex-column-mob space-between">
+                <h2>MODEL Nº1</h2>
+                <p>BLUE AND WHITE</p>
               </div>
-            </a>
-          </article>
-          <article>
-            <a href="./product5.html" class="product" id="product5"><span class="font300">2002</span>
-              <div class="flex-row-mob space-between">
-                <h3>MODEL Nº2</h3>
-                <span>330 USD</span>
-              </div>
-            </a>
-          </article>
-          <article>
-            <a href="./product6.html" class="product" id="product6"><span class="font300">3003</span>
-              <div class="flex-row-mob space-between">
-                <h3>MODEL Nº3</h3>
-                <span>900 USD</span>
-              </div>
-            </a>
-          </article>
+              <span>350 USD</span>
+            </div>
+            <div class="details">
+              <h3>DETAILS</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, quia. Nisi sequi eum, adipisci
+                distinctio
+                repellendus culpa labore repellat illo voluptas ipsum quidem quod mollitia quos pariatur incidunt
+                officiis
+                magni.</p>
+            </div>
+            <div class="add-to-cart"><a href="#" class="flex-row-mob"><span class="plus">+</span><span class="add">Add
+                  to
+                  the Cart</span></a>
+            </div>
+          </div>
+          <div class="go-back reverse-hidden"><a href="headphones.html">Back to Headphones</a></div>
         </div>
       </section>
     </main>
@@ -130,6 +126,7 @@
       </div>
       <a href="#"><i class="fas fa-search"></i></a>
       <a href="#"><i class="far fa-user"></i></a>
+      <a href="headphones.html" class="back">Back to<br>Headphones</a>
     </aside>
   </div>
 
