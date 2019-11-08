@@ -4,29 +4,7 @@ In this project, I built an e-commerce website for "Hear Better", a ficticious s
 
 # Workflow
 
-1 - Create the github repository.
 
-2 - Create a branch to work on (never code in the master branch).
-
-3 - Plan the website layout.
-
-4 - Gather all the necessary images.
-
-5 - Write the HTML structure of the page using semantic HTML tags and prioritizing the mobile version.
-
-6 - Divide the code into sections accordingly to the ones of the website.
-
-7 - Style the page from top to bottom, and from the lower resolution to the bigger one, creating sections corresponding to the main elements of the page and respecting the order in which the labels are presented in HTML.
-
-8 - If you feel that you're using the same CSS attributes over and over, create a generalized class for it.
-
-9 - In case of multiple pieces of code or pages that are similar but not the same, structure and configure the first one. Make copies after and change what's needed.
-
-10 - Save your progress constantly on Github. This ensures plenty of returning points in case they are needed.
-
-11 - Create a new branch whenever you feel the need to make a major change in your coding structure, so you can test it without compromising the work already achieved.
-
-12 - After finishing the project, send the HTML and CSS files to W3C's online file validators.
 
 # Techniques and programs used
 
