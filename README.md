@@ -27,7 +27,7 @@ If you have contributions to make, send me a message telling me about your ideas
 ![New pull request button highlight](/assets/readme-imgs/step4.png)
 
 2 - You'll be redirected to the page below, where the red square shows the repository and the branch you want the changes implemented, and the blue one shows the repository and the branch from where the changes will come from. Give a title and a description for your pull request, and click on "Create pull request".
-![New pull request page](/assets/readme-imgs/step4.png)
+![New pull request page](/assets/readme-imgs/step5.png)
 
 3 - I will analyze your proposal and if we agree, I will merge your pull request.
 
