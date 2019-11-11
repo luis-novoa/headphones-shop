@@ -1,0 +1,143 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <link rel="stylesheet" href="../assets/stylesheets/reset.css">
+  <link rel="stylesheet" href="../assets/stylesheets/style.css">
+  <title>HearBetter</title>
+</head>
+
+<body>
+  <div class="main-viewport flex-row-desk">
+    <header class="fixed flex-row-desk" id="header">
+      <nav class="navbar flex-row-mob flex-column-desk">
+        <a href="../index.html">
+          <h1 class="logo">HEAR <i class="fas fa-headphones logo-icon"></i> BETTER</h1>
+        </a>
+        <div class="categories hidden flex-column-desk flex1-desk">
+          <a class="padding-bottom-6 text14" href="headphones.html">Headphones</a>
+          <a href="earphones.html" class="text14">Earphones</a>
+        </div>
+        <div class="menu flex-row-desk flex1-desk">
+          <div>
+            <a href="#menu-page" class="fas fa-bars" id="menu-icon"> <span
+                class="menu-text hidden text12">Menu</span></a>
+          </div>
+        </div>
+        <div class="social hidden flex-column-desk">
+          <a class="padding-bottom-3" href="#">Instagram</a>
+          <a class="padding-bottom-3" href="#">Facebook</a>
+          <a class="padding-bottom-3" href="#">Twitter</a>
+          <a href="#">Youtube</a>
+        </div>
+      </nav>
+
+      <!-- Menu -->
+      <section class="menu-page flex-column-mob" id="menu-page">
+        <div class="search flex1-mob flex-row-desk">
+          <div class="opaque flex-column-mob flex1-desk">
+            <h4>Search</h4>
+            <input type="search" name="searchbar" id="searchbar">
+          </div>
+          <div class="hidden flex1-desk search-desk-img"></div>
+        </div>
+        <div class="menu-main flex-column-mob">
+          <div class="right-bar-small flex-row-mob reverse-hidden">
+            <div class="flex-row-desk">
+              <a href="#" class="cart"><span>Cart</span><span class="cart-counter">0</span></a>
+            </div>
+            <a href="#"><i class="fas fa-search"></i></a>
+            <a href="#"><i class="far fa-user"></i></a>
+          </div>
+          <a href="#header" class="fas fa-times-circle close-menu"></a>
+          <div class="menu-nav-wrapper flex-row-mob">
+            <nav class="flex-column-mob">
+              <h3>SHOP</h3>
+              <a href="headphones.html">Headphones</a>
+              <a href="earphones.html">Earphones</a>
+            </nav>
+            <nav class=" flex-column-mob">
+              <h3>COMPANY</h3>
+              <a href="#">About us</a>
+              <a href="#">Carrers</a>
+              <a href="#">Terms &<br> Conditions</a>
+              <a href="#">Privacy &<br> Cookies</a>
+            </nav>
+            <nav class=" flex-column-mob">
+              <h3>SUPPORT</h3>
+              <a href="#">Assistance</a>
+              <a href="#">Shipping<br> Information</a>
+              <a href="#">Returns</a>
+              <a href="#">Contact</a>
+            </nav>
+          </div>
+        </div>
+        <div class="newsletter flex1-mob flex-row-desk">
+          <div class="hidden flex1-desk newsletter-desk-img"></div>
+          <div class="opaque flex-column-mob  flex1-desk">
+            <h4>Subscribe To Our Newsletter</h4>
+            <input type="email" name="newsletter" id="newsletter">
+          </div>
+        </div>
+      </section>
+
+    </header>
+
+    <main>
+      <!-- Product Page -->
+      <section class="product-page flex-row-tab flex-column-desk">
+        <div class="mini-imgs flex-column-tab flex-row-desk">
+          <div id="product1-img2"></div>
+          <div id="product1-img3"></div>
+          <div id="product1-img4"></div>
+          <div id="product1-img5"></div>
+        </div>
+        <div class="product-main flex-column-mob flex-row-desk">
+          <div class="product-expositor" id="product1-img"><span class="product-number">0001</span><span>01/05</span>
+          </div>
+          <div class="product-wrapper flex-column-desk">
+            <div class="product-info flex-row-mob space-between">
+              <div class="flex-column-mob space-between">
+                <h2>MODEL Nº1</h2>
+                <p>BLUE AND WHITE</p>
+              </div>
+              <span>350 USD</span>
+            </div>
+            <div class="details">
+              <h3>DETAILS</h3>
+              <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Optio, quia. Nisi sequi eum, adipisci
+                distinctio
+                repellendus culpa labore repellat illo voluptas ipsum quidem quod mollitia quos pariatur incidunt
+                officiis
+                magni.</p>
+            </div>
+            <div class="add-to-cart"><a href="#" class="flex-row-mob"><span class="plus">+</span><span class="add">Add
+                  to
+                  the Cart</span></a>
+            </div>
+          </div>
+          <a href="headphones.html">
+            <div class="go-back reverse-hidden">Back to Headphones</div>
+          </a>
+        </div>
+      </section>
+    </main>
+
+    <!-- Right Bar -->
+    <aside class="right-bar hidden flex-column-desk fixed">
+      <div class="flex-row-desk">
+        <a href="#" class="cart"><span>Cart</span><span class="cart-counter">0</span></a>
+      </div>
+      <a href="#"><i class="fas fa-search"></i></a>
+      <a href="#"><i class="far fa-user"></i></a>
+      <a href="headphones.html" class="back">Back to<br>Headphones</a>
+    </aside>
+  </div>
+
+  <script src="https://kit.fontawesome.com/4769bb681b.js"></script>
+</body>
+
+</html>
