@@ -327,6 +327,14 @@ header {
   align-self: flex-end;
 }
 
+.product-wrapper {
+  background: white;
+}
+
+.product-wrapper > * {
+  background-color: #f5f5f5;
+}
+
 #product1-img {
   background: url(../images/product1-1.png) center no-repeat;
   background-size: 40%;
