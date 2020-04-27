@@ -2,6 +2,10 @@
 
 In this project, I built an e-commerce website for "Hear Better", a fictitious shop specialized in selling headphones and earphones. The style was based on the [website concept](https://www.behance.net/gallery/80392909/AXEL-ARIGATO-Website) designed by [Dima Oxygen](https://www.behance.net/dimaoxygen) for the store "Axel Arigato".  This is part of the [Microverse curriculum](https://www.microverse.org/#world-class-curriculum). The result can be seen in [this live webpage](https://raw.githack.com/luis-novoa/headphones-shop/development/index.html).
 
+Check the video with the overview of the project:
+
+[![](https://img.youtube.com/vi/zDZVazLz-tc/0.jpg)](https://www.youtube.com/watch?v=zDZVazLz-tc "Click to play on Youtube.com")]
+
 # Getting a Copy and Contributing
 This project is open for anyone who wants to clone it and create their version. If you just want the files and don't want to make further changes, follow the steps below to get a copy in your computer:
 
