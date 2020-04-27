@@ -58,6 +58,23 @@ The products shown on this website are not my property, and their images were on
 - [Dima Oxygen](https://www.behance.net/dimaoxygen) for the design used on this webpage.
 - [Beats by DRE](https://www.beatsbydre.com/), [Shure](https://www.shure.com) and [AKG](https://www.akg.com/) for the product images.
 
-# Authors
+## Author
 
-- [Luis Novoa](https://github.com/luis-novoa)
+👤 **Luis Novoa**
+
+- GitHub: [luis-novoa](https://github.com/luis-novoa)
+- Twitter: [@LuisMatteNovoa](https://twitter.com/LuisMatteNovoa)
+- Linkedin: [Luis Novoa](https://www.linkedin.com/in/luismattenovoa/)
+- Email: [luis.matte.novoa@gmail.com](mailto:luis.matte.novoa@gmail.com])
+
+## 🤝 Contributing
+
+Contributions and feature requests are welcome!
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](./LICENSE) licensed.
