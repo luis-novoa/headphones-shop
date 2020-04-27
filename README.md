@@ -1,6 +1,10 @@
 # headphones-shop
 
-In this project, I built an e-commerce website for "Hear Better", a fictitious shop specialized in selling headphones and earphones. The style was based on the [website concept](https://www.behance.net/gallery/80392909/AXEL-ARIGATO-Website) designed by [Dima Oxygen](https://www.behance.net/dimaoxygen) for the store "Axel Arigato".  This is part of the [Microverse curriculum](https://www.microverse.org/#world-class-curriculum). The result can be seen in [this live webpage](https://raw.githack.com/luis-novoa/headphones-shop/development/index.html).
+In this project, I built an e-commerce website for "Hear Better", a fictitious shop specialized in selling headphones and earphones. The style was based on the [website concept](https://www.behance.net/gallery/80392909/AXEL-ARIGATO-Website) designed by [Dima Oxygen](https://www.behance.net/dimaoxygen) for the store "Axel Arigato".  This is part of the [Microverse curriculum](https://www.microverse.org/#world-class-curriculum). The result can be seen in [this live webpage](https://luis-novoa.github.io/headphones-shop/).
+
+Check the video with the overview of the project:
+
+[![](https://img.youtube.com/vi/zDZVazLz-tc/0.jpg)](https://www.youtube.com/watch?v=zDZVazLz-tc "Click to play on Youtube.com")]
 
 # Getting a Copy and Contributing
 This project is open for anyone who wants to clone it and create their version. If you just want the files and don't want to make further changes, follow the steps below to get a copy in your computer:
@@ -54,6 +58,23 @@ The products shown on this website are not my property, and their images were on
 - [Dima Oxygen](https://www.behance.net/dimaoxygen) for the design used on this webpage.
 - [Beats by DRE](https://www.beatsbydre.com/), [Shure](https://www.shure.com) and [AKG](https://www.akg.com/) for the product images.
 
-# Authors
+## Author
 
-- [Luis Novoa](https://github.com/luis-novoa)
+👤 **Luis Novoa**
+
+- GitHub: [luis-novoa](https://github.com/luis-novoa)
+- Twitter: [@LuisMatteNovoa](https://twitter.com/LuisMatteNovoa)
+- Linkedin: [Luis Novoa](https://www.linkedin.com/in/luismattenovoa/)
+- Email: [luis.matte.novoa@gmail.com](mailto:luis.matte.novoa@gmail.com])
+
+## 🤝 Contributing
+
+Contributions and feature requests are welcome!
+
+## Show your support
+
+Give a ⭐️ if you like this project!
+
+## 📝 License
+
+This project is [MIT](./LICENSE) licensed.
