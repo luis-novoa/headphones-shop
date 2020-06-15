@@ -6,6 +6,18 @@ Check the video with the overview of the project:
 
 [![](https://img.youtube.com/vi/zDZVazLz-tc/0.jpg)](https://www.youtube.com/watch?v=zDZVazLz-tc "Click to play on Youtube.com")]
 
+## Features
+- Animated Menu
+- Categories Page
+- Product Overview Page
+- Mobile, tablet and desktop versions
+
+## Future Improvements
+- Turn the page into a React + Rails App
+- Add user registration
+- Add cart feature
+
+
 # Getting a Copy and Contributing
 This project is open for anyone who wants to clone it and create their version. If you just want the files and don't want to make further changes, follow the steps below to get a copy in your computer:
 
